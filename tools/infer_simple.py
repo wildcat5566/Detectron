@@ -167,5 +167,5 @@ def main(args):
 if __name__ == '__main__':
     workspace.GlobalInit(['caffe2', '--caffe2_log_level=0'])
     setup_logging(__name__)
-    args = parse_args()
-    main(args)
+    #args = parse_args()
+    #main(args)
