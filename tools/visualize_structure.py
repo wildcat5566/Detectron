@@ -34,6 +34,7 @@ def get_model(cfg_file, weights_file):
     model = infer_engine.initialize_model_from_cfg()
     return model
 
+DETECTRON_ROOT='/detectron'
 cfg_file = '{}/configs/12_2017_baselines/e2e_mask_rcnn_R-101-FPN_2x.yaml'.format(DETECTRON_ROOT)
 weights_file = 'https://s3-us-west-2.amazonaws.com/detectron/' + \
     '35861858/12_2017_baselines/e2e_mask_rcnn_R-101-FPN_2x.yaml.02_32_51.SgT4y1cO/' + \
